@@ -30,3 +30,22 @@
 // {
 // alert('Winter Season'); 
 // }
+
+// var i;
+
+// for(var i=0; i<=10; i++){
+//   console.log(i)
+// }
+
+
+// var i;
+
+// for(var i=10; i<11; --i){
+//   console.log(i)
+// }
+
+// var i;
+
+// for(var i=10; i>=1; i--){
+//     console.log(i)
+// }
