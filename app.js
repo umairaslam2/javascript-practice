@@ -49,3 +49,15 @@
 // for(var i=10; i>=1; i--){
 //     console.log(i)
 // }
+
+// var i;
+
+// for(var i=1; i<=12; i++){
+//     console.log("2 X " + i + "=" + 2 * i)
+// }
+
+// var i;
+
+// for(var i=1; i<=12; i++){
+//     console.log("4 X " + i + "=" + 4 * i)
+// }
