@@ -20,3 +20,13 @@
 //  {
 //  alert('Invalid username or password.');
 //  } 
+
+// var weatherDegree = 15;
+//  if(!(weatherDegree < 10))
+//  {
+//  alert('Normal Weather');
+// }
+// else
+// {
+// alert('Winter Season'); 
+// }
