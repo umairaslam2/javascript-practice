@@ -61,3 +61,15 @@
 // for(var i=1; i<=12; i++){
 //     console.log("4 X " + i + "=" + 4 * i)
 // }
+
+// var i;
+//  while(i <= 10) {
+//  document.write(i + '<br/>'); 
+//  i++;
+//  }
+
+// var i = 10;
+//  while(i >= 1) {
+//  document.write(i + '<br/>'); 
+//  i--; }
+
