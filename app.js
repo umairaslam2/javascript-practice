@@ -73,3 +73,35 @@
 //  document.write(i + '<br/>'); 
 //  i--; }
 
+// var i = 1;
+//  do{
+//  document.write(i + '<br/>');
+//  i++;
+//  } while(i >= 10);
+
+// for(i=1; i <= 10; i++) 
+//     {
+//     document.write(i + '<br/>');
+//     if(i == 5) {
+//     break;
+//     }
+//     }
+   
+
+// var i;
+//  for(i=1; i <= 10; i++)
+//  {
+//  document.write(i + '<br/>');
+//  if(i == 5)
+//  {
+//  document.write('JavaScript' + '<br/>');
+//  continue;
+//  }
+// }
+
+// var things = new 
+// Array("chair","table","door","window","wall");
+//  for(var i=0; i<things.length; i++) 
+//  {
+//  document.write(things[i] + "<br/>");
+//  }
