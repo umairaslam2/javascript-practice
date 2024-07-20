@@ -105,3 +105,26 @@
 //  {
 //  document.write(things[i] + "<br/>");
 //  }
+
+// var things = new 
+// Array("chair","table","door","apple","wall");
+//  things.sort();
+//  for(var i=0; i<things.length; i++) 
+//  {
+//  document.write(things[i] + `<br/>` + " ");
+//  }
+
+// var things = new 
+// Array("chair","table","door","apple","wall");
+//  things.splice(2);
+ 
+//  for(var i=0; i<things.length; i++)
+//  { document.write(things[i] + " "); }
+
+// var ans = prompt("What is your name?" , "");
+//  if(ans)
+//  { alert("My name is " + ans); }
+//  else
+//  { alert("You refused to answer"); }
+
+
