@@ -187,3 +187,28 @@
 //  document.write(mydate);
 
 
+//document.write(navigator.appName);
+
+//document.write(navigator.appVersion)
+ 
+// var msg = "This is";
+//  msg = msg + " String Object";
+//  msg = msg + " in JavaScript.";
+//  document.write(msg);
+
+// var msg = "This is";
+//  msg += " String Object";
+//  msg += " in JavaScript.";
+//  document.write(msg);
+
+
+// var msg = "This is String";
+//  document.write(msg.charCodeAt(0));
+
+//document.write(eval("2+5"));
+
+// const myname = 'JavaScript';
+//  myname = 'Programing';
+//  document.write(myname);
+
+
