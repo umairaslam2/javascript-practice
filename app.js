@@ -128,3 +128,43 @@
 //  { alert("You refused to answer"); }
 
 
+// var things = new 
+// Array("chair","table","door","window","wall");
+//  var total = things.join("-");
+//  document.write(total);
+
+
+
+
+
+// var heading = 
+// document.getElementById('myheading').innerHTML;
+//  alert(heading);
+
+
+// var h1Element = document.getElementById('myheading');
+//  h1Element.style.color = 'red';
+
+// var tdElement = document.getElementsByTagName('td');
+//  var tdLength = tdElement.length;
+//  for(var i = 0; i < tdLength; i++)
+//  {
+//     tdElement[i].style.color = 'gray';
+// }
+
+
+// var pElement = document.getElementById('mypara');
+//  pElement.setAttribute('align', 'center');
+
+
+// var pElement = document.getElementById('mypara');
+//  alert(pElement.getAttribute('align'));
+
+// var pElement = document.getElementById('mypara');
+//  alert('Attribute is going to remove');
+//  pElement.removeAttribute('align');
+
+// var newElem = document.createElement('h1');
+//  var newText = document.createTextNode('This is my heading');
+//  newElem.appendChild(newText);
+//  document.body.appendChild(newElem);
