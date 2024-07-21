@@ -168,3 +168,22 @@
 //  var newText = document.createTextNode('This is my heading');
 //  newElem.appendChild(newText);
 //  document.body.appendChild(newElem);
+
+
+// var d = new Date();
+//  var mytime = d.getHours();
+//  document.write(mytime);
+
+// var d = new Date();
+//  var myday = d.getDay();
+//  document.write(myday);
+
+// var d = new Date();
+// var mydate = d.toDateString();
+// document.write(mydate);
+
+// var d = new Date();
+//  var mydate = d.toLocaleDateString();
+//  document.write(mydate);
+
+
