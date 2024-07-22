@@ -212,3 +212,51 @@
 //  document.write(myname);
 
 
+// function changeHeading()
+// {
+//  document.getElementById('myheading').innerHTML = 
+// 'Change Heading';
+// }
+
+// function changeHeading()
+//  {
+//  document.getElementById('myheading').innerHTML = 
+// 'Change Heading';
+//  }
+//  function firstHeading()
+//  {
+//  document.getElementById('myheading').innerHTML =
+//  'This is heading1';
+//  }
+
+//window.alert('Welcome to window object');
+
+// function website()
+//  {
+//  window.location = 'http://www.google.com';
+//  }
+
+
+// function umair(nam){
+//     console.log(nam)
+// }
+// var nam = prompt("enter your name")
+// umair(nam)
+
+// function umair(nam) {
+
+//     console.log(nam)
+
+//     umair(prompt("enter your name"))
+//       var nam = umair("")
+
+    //   function test(name) {
+    //       var userName = name;
+    //       console.log("inside Name -->", userName);
+    //     }
+        
+    //     test(prompt(""));
+        
+    //     var name = "aslam";
+        
+    //     console.log("outer name-->", name);
