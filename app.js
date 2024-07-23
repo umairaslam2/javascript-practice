@@ -351,3 +351,39 @@
 //  orderTot = merchTot + 5 + (.03 * (merchTot - 50));
 //  }
 //  console.log(orderTot)
+
+
+// parameter first take value from arguement then function work and return back the answere to parameter which is called
+//     function calcTot(merchTot) {
+//   var neww = 25
+//   merchTot = merchTot + neww
+//   return merchTot
+// //   alert(merchTot)
+// }
+//   var totalToCharge = calcTot(50.99);
+// alert(totalToCharge)
+
+// function myTest(check){
+//     var neww = 50
+//     check = check + neww
+//     return check
+// }
+// var total = myTest(+prompt("please enter a number"))
+// alert(total)
+
+// var input = document.getElementById("input")
+// function plus(plusValue){
+//     var screen = screen = input.value += plusValue.slice(0,1)
+//     if(screen.indexOf("+") !== -1){
+//        var neww = input.value.slice(0,1)
+//        console.log(neww)
+
+//     }
+//     console.log(screen.slice(0,1))
+//     return screen
+// }
+// function mul(mValue){
+//     var screen = screen = input.value += mValue.slice(0,1)
+//     if(screen.indexOf("*") !== -1){
+//        var neww1 = input.value.slice(0,1)
+//        console.log(neww1)
