@@ -387,3 +387,50 @@
 //     if(screen.indexOf("*") !== -1){
 //        var neww1 = input.value.slice(0,1)
 //        console.log(neww1)
+
+
+// function neww(Value){
+//     var screen = screen = input.value += Value.slice(0,1)
+//     if(screen.indexOf("2") !== -1){
+//        var neww2 = input.value.slice(0,1)
+//        console.log(neww2)
+
+//     }
+//     // console.log(screen.slice(0,1))
+//     return screen
+// }
+// function equal(evalue){
+//     var total = eval(input.value)
+//     input.value = total
+//     console.log(total)
+// }
+// function clear(cValue){
+//     var screen = screen = input.value += cValue.slice(0,1)
+//  if(screen.indexOf("c") !== -1){
+//     var clear = input.value = ""
+//     console.log(clear)
+//  }
+
+// }
+
+// var num1 = +prompt("enter first number")
+// var operator = prompt("enter operator")
+// var num2 = +prompt("enter second number")
+// if(operator === "+"){
+//     alert(num1 + num2)
+// }
+// else if(operator === "-"){
+//     alert(num1 - num2)
+// }
+// else if(operator === "*"){
+//     alert(num1 * num2)
+// }
+// else if(operator === "/"){
+//     alert(num1 / num2)
+// }
+// else{
+//     alert("enter valid number/operator")
+// }
+// // =====
+
+// *************** Solve BAsic Questions ***********
