@@ -434,3 +434,17 @@
 // // =====
 
 // *************** Solve BAsic Questions ***********
+
+// var string = "ahsan"
+// string = string.split("")
+// var reverser = string.reverse("")
+// var join = reverser.join("");
+//     console.log(join);
+// var string =  "kayak";
+// var revString = string.split("").reverse("").join("")
+// var myString = string
+// if(myString === revString){
+//     console.log("Yes it is palindrome")
+// }
+// else{console.log("no it is not palindrome")}
+
