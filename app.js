@@ -337,3 +337,17 @@
 // function showMessage(m,string,num){
 //     alert(m+string+num)
 // }
+
+// showMessage("february ","winter is going off", 2)
+// var orderTot;
+// var merchTot = 75;
+//  if (merchTot >= 100) {
+//  orderTot = merchTot;
+//  }
+//  else if (merchTot < 50.01) {
+//  orderTot = merchTot + 5;
+//  }
+//  else {
+//  orderTot = merchTot + 5 + (.03 * (merchTot - 50));
+//  }
+//  console.log(orderTot)
