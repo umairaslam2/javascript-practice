@@ -480,7 +480,7 @@
 // }
 
 
-/ var text = "hi this is Umair from karachi pakistan"
+// var text = "hi this is Umair from karachi pakistan"
 // var check = false
 // var search = prompt("enter word to search");
 // var chang = prompt("which word would you like to change against " + search)
@@ -495,3 +495,35 @@
 // if(check == false){
 //     console.log("search not found")
 // }
+
+// var text = "hi this is umair aslam umair";
+// var search = prompt("which word do you like to search");
+// var chang = prompt("which word would you like to change against " + search);
+// var check = false;
+// for(i = 0; i < text.length; i++){
+//    if(text.slice(i , i + search.length) == search){
+//     check = true
+//     var neww = text.replaceAll(search , chang)
+//     console.log(neww)
+//    }
+
+// }
+// var text = ["hi this is umair aslam from karachi","umair"]
+// var search = prompt("search word")
+// var check = false
+// for(i = 0; i < text.length; i++){
+//    text = text[i]
+//    for(j = 0; j < text.length; j++ ) {
+//       check = true
+//       text = text.toString()
+//       for(k = 0 ;k < text.length;k++){
+//          if(text.slice(k,k + search.length) === search){
+//             check = true
+//             var chang = prompt("which word would you like to change against " + " " + search)
+//             text = text.replace(search , chang)
+//             console.log(text)
+//          }
+//       }
+// }
+// }
+
