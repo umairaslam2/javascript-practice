@@ -596,3 +596,19 @@
 //   document.write(`no ${user} is not palindrome`)
 // }
 
+// var arr= ["Mehran","Suzuki","Honda"];
+// var user = prompt("enter to search car").toLowerCase()
+// var nuser = user
+// nuser = nuser.slice(0,1).toUpperCase() + nuser.slice(1).toLowerCase()
+// console.log(nuser)
+// var check = false
+// for(i = 0 ; i < arr.length;i++){
+//   if(nuser === arr[i]){
+//     check = true
+//     document.write(`found ${nuser}`)
+//   }
+// }
+// if(check === false){
+//   document.write(`${nuser} Not found`)
+// }
+
