@@ -583,3 +583,16 @@
 // }
 
 
+// var arr = ["civic","madam","radar"];
+// var user = prompt("enter to search palindrome words");
+// var check = false
+// for(i = 0;i < arr.length;i++){
+// if(user === arr[i]){
+//   check = true
+//   document.write(`yes ${user} is palindrome`)
+// }
+// }
+// if(check === false){
+//   document.write(`no ${user} is not palindrome`)
+// }
+
