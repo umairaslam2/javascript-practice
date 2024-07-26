@@ -545,3 +545,20 @@
 
 // console.log(neww)
 
+
+// var  ism = "umair"
+// var neww = ism.slice(0,1)
+// neww = neww.toUpperCase();
+// var fName = neww + ism.slice(1)
+// console.log(fName)
+
+// var num = +prompt("enter your number ");
+// if(num % 3 === 0  && num % 5 === 0 ){
+//    console.log("number is divisble with 3 and five")
+// }
+// else{
+//    console.log("this number is not divisble with 3 and 5");
+// }
+
+// console.log(neww)
+
