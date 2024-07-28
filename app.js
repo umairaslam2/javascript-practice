@@ -636,3 +636,14 @@
 //     document.write(min+"<br>");
 // }
 
+// var text = "hi this is umair aslam"
+// var check = false
+// for(i = 0; i <  text.length; i++ ){
+//      if(text.slice(i,i + "umair".length) === "umair"){
+//           check = true
+//           document.write(`found umair <br>`)
+//           neww = text.replace("umair","umer".toUpperCase())
+//           document.write(neww)
+
+//      }
+// }
