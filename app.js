@@ -697,3 +697,12 @@
 //     console.log("yes it is in")
 // }
 
+// var user = prompt("enter word to search palindrome");
+// var arr = [];
+// for (i = user.length - 1; i >= 0; i--) {
+//   arr += user[i];
+// }
+// if (user == arr) {
+//   document.write("yes it is palindrome");
+// }
+
