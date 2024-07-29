@@ -677,3 +677,15 @@
 //         document.write(`enter days names only`);
 // }
 
+// var arr = ["civic","madam","radar","level"];
+// var user = prompt("enter to search palindrome words");
+// var check = false
+// for(i = 0 ; i < arr.length ;i++){
+//     if(user === arr[i]){
+//         check = true
+//         document.write(`Yes ${user} Is Palindrome`)
+//     }
+// }
+// if(check === false){
+//     document.write(`no ${user} is not palindrom`)
+// }
