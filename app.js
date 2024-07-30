@@ -706,3 +706,18 @@
 //   document.write("yes it is palindrome");
 // }
 
+// var myarr = [3,2,5,6,7,11]
+// var min = myarr[0]
+// for(i = 0 ; i < myarr.length ; i++){
+//     if(myarr[i] > min){
+//         min = myarr[i]
+//     }
+// }
+// console.log(min)
+
+// var arr = [1,2,3,4,6,7,8,9,10]
+// for(var i = 0; i < arr.length;i++){
+// if(arr[i +1] - arr[i] === 2){
+//     console.log(arr[i]+1)
+// }
+// }
