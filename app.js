@@ -721,3 +721,31 @@
 //     console.log(arr[i]+1)
 // }
 // }
+
+
+// var num = [1,2,3,4,5,7,8,9,10]
+// for(var i = 0 ; i < num.length; i++){
+
+//     if(num[i + 1] - num[i] == 2){
+//         console.log(num[i] + 1)
+//     }
+// }
+
+// var user = prompt("enter word to search is it palindrome or not");
+// var reverse = "";
+// for (i = user.length - 1; i >= 0; i--) {
+//     reverse += user[i];
+// }
+// if(reverse === user){
+//     document.write(`yes it is palindrome`)
+// }
+// else{
+//     document.write(`no this is not palindrome`)
+// var arr = [5,2,6,9,11,25];
+// var min = arr[0]
+// for(var i = 0 ; i < arr.length ; i++){
+//     if(arr[i] < min){
+//         min = arr[i]
+//     }
+// }
+// document.write(`${min} is minimist number`)
