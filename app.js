@@ -836,3 +836,17 @@
 //     else{alert(`Please enter value username and email`)}
 // }
 
+// var miss = [1,ne2,4,5,10]
+// var missing = []
+// for(i = 0; i < miss.length; i++){
+//     var difference = miss[i + 1] - miss[i]
+//     if(difference > 1){
+//         for(j = 1; j < difference;j++){
+//             missing.push(miss[i] + j)
+//             miss.splice(i + j,0,miss[i] + j)
+//             // console.log(miss[i] + j)
+//         }
+//     }
+// }
+// console.log("Miss ==>",miss)
+// console.log("missing ==>",missing)
