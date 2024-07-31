@@ -808,3 +808,31 @@
 // [a, b, c] = arr;
 
 // console.log(b);
+
+
+// var arr = [11,13,14,15,20]
+// var missing = []
+// for(i = 0 ; i < arr.length; i++){
+//  diff = arr[i + 1] - arr[i]
+//  for(j = 1; j < diff; j++){
+//     if(diff >1){  
+//         missing.push(arr[i] + j)
+//         arr.splice( i + j,0,arr[i] + j)
+//     }
+    
+// }
+// }
+// // arr.splice(0,0,missing)
+// // console.log(missing)
+// console.log(arr)
+// function submit(){
+//     var username = document.getElementById("userName");
+//     var email = document.getElementById("email");
+//     console.log("USERNAME ==>",username.value)
+//     console.log("EMAIL ==>",email.value)
+//     if(username.value.trim() && email.value.trim()){
+//     email.value = ""
+//     username.value = ""}
+//     else{alert(`Please enter value username and email`)}
+// }
+
