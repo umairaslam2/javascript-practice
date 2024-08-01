@@ -919,3 +919,33 @@
 //       console.log(i)
 //     },1000)
 // }
+
+
+// closure;
+
+// function abc (){
+//     // window
+//     // abc scope
+//     var a = 2;
+
+
+//     function xyz(){
+//       // window
+//       // abc scope
+//       // xyz scope
+
+
+//       function foo(){
+//       // window
+//       // abc scope
+//       // xyz scope
+//       // foo scope
+
+//       }
+//     }
+
+//     xyz();
+// }
+
+
+// abc();
