@@ -850,3 +850,72 @@
 // }
 // console.log("Miss ==>",miss)
 // console.log("missing ==>",missing)
+
+
+//Var vs Let vs Const;
+
+// let a = "umair"
+
+// a = "aslam"
+
+// console.log(a)
+
+// let or const is block level;
+
+// if (true) {
+//     let a = "umair"
+// }
+
+// console.log(a)
+
+//var is function level
+
+// if (true) {
+//     var a = "umair"
+// }
+
+// console.log(a)
+
+// Const aesi value hai jo kabi bi update na karen
+
+
+
+// Array or object li value by reference save hoti hai
+
+// const a = {}
+
+// a.name = "umair"
+
+// console.log(a)
+
+// const se value updat nahi hoti error ata let se hoti hai 
+// const a = {}
+
+// a = {name: "umair"}
+
+// console.log(a)
+
+// let a = {}
+
+// a = {name: "umair"}
+
+// console.log(a)
+
+
+// var hoist hota hai let or const nahi hota
+
+//synchronous ka matlab error hai to nahi chalta;
+            //OR
+//Asynchronous code KA MATLAB kissi line of code ma error hai to isska wait nahi karna dusri line chala loo
+
+// for (var i =0; i< 5; i++){
+//     setTimeout(function(){
+//       console.log(i)
+//     },1000)
+// }
+
+// for (let i =0; i< 5; i++){
+//     setTimeout(function(){
+//       console.log(i)
+//     },1000)
+// }
