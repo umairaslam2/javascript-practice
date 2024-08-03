@@ -1035,5 +1035,28 @@
 // foo("SMIT", "umair", "aslam" )
 
 
+// spread operater; // ye donu ko marge kardeta or array me deta;
+
+// let arr = ["umair", "aslam"];
+
+// let arr1 = ["ali", "uzair"];
+
+// let mar = [...arr, ...arr1];
+
+// console.log(mar)
+
+// let student = {
+//     name: "Umair",
+//     email: "umair@company.com"
+// }
+
+// let school = {
+//     schoolName: "SMIT",
+//     location: "TariqRoad"
+// }
+
+// console.log({...student, ...school})
+
+
 
 
