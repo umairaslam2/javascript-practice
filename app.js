@@ -972,3 +972,29 @@
 // console.log(name)
 // console.log(email)
 // console.log(time)
+
+
+
+
+// Default parameters;
+
+// let student = {
+//     name: "Umair",
+//     email: "umair@company.com"
+//     classDetails: {
+//         time: "subha";
+//     }
+// }
+
+// let time = "1212";
+
+
+// let {name, email, classDetails} = student;
+// let {time = "9-11" } = classDetails;
+
+// console.log(name)
+// console.log(email)
+// console.log(time)
+
+
+
