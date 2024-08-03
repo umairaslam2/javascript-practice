@@ -997,4 +997,43 @@
 // console.log(time)
 
 
+// daynamic property name;
+
+// let student = {
+//     name: "Umair",
+//     email: "umair@company.com"
+// }
+
+// let search = "name";
+
+// let { [search]: a } = student;
+
+// console.log(a)
+
+
+// let arr = ["umair", "aslam", 336];
+
+// let [a,b,c] = arr;
+
+// console.log(a, b, c)
+
+
+// Default parameters;
+
+// function foo(a = "not available"){
+//     console.log(a)
+// }
+
+// foo("SMIT")
+
+// rest parameter;
+
+// function foo(a = "not available", ...rest){
+//     console.log(rest)
+// }
+
+// foo("SMIT", "umair", "aslam" )
+
+
+
 
