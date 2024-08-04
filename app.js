@@ -1091,5 +1091,17 @@
 
 // console.log(obj, obj1,obj2)
 
+//Enanched object litrals;
 
+
+// let student = "umair";
+// let institute = "SMIT";
+
+// let obj = {
+//     student,
+//     institute
+    
+// }
+
+// console.log(obj)
 
