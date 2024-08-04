@@ -1058,5 +1058,19 @@
 // console.log({...student, ...school})
 
 
+// sello copy; // update hota hai;
+
+
+// let obj = {name: "Umair"}
+
+// let obj1 = obj
+
+// let obj2 = obj1
+
+// obj2.name = "Aslam"
+
+// console.log(obj, obj1,obj2)
+
+
 
 
