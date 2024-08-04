@@ -1072,5 +1072,24 @@
 // console.log(obj, obj1,obj2)
 
 
+// Deep copy; // aik update karen to dusri update nahi hote;
+
+
+// let obj = {
+//     name: "Umair",
+//     institute: {
+//          name: "SMIT"
+//     }
+
+// };
+
+// let obj1 = obj
+
+// let obj2 = JSON.parse(JSON.stringify(obj))
+
+// obj2.institute.name = "Saylani"
+
+// console.log(obj, obj1,obj2)
+
 
 
