@@ -1136,3 +1136,18 @@
 // }
 
 // abc(myCallback);
+
+
+
+//Array method; = // for loap ki replacement or ye kuch return nhai karta hai;
+
+// foreach kuch return nahi karta;
+
+
+//  let arr = ["Multan", "Islamabad", "Faislabad"]
+
+// arr.forEach(function(elem, i){
+//   console.log(elem, i)
+// })
+
+
