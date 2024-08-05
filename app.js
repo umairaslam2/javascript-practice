@@ -1121,4 +1121,18 @@
     // console.log(obj.name)
 
 
-    
+    // callback; //ASYRONOUS
+
+
+// function abc(cb){
+//     setTimeout(function(){
+//          console.log("Done")
+//          cb();
+//     },5000)
+// }
+
+// function myCallback(){
+//     console.log("ABC FREE")
+// }
+
+// abc(myCallback);
