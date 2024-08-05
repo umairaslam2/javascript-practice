@@ -1105,3 +1105,20 @@
 
 // console.log(obj)
 
+// optional chaning;
+
+
+    // let obj = {
+    //     name: "Umair",
+    //     institute: {
+    //          name: "SMIT"
+    //     }
+    
+    // };
+
+    // console.log(obj?.institute?.detail?.name)
+
+    // console.log(obj.name)
+
+
+    
