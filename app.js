@@ -1151,3 +1151,19 @@
 // })
 
 
+// arr.forEach(function(elem, i, all){
+//   console.log(elem, i, all)
+// })
+
+
+// map return karsakte hai or aik array ko use karke naya array bnadeta;
+
+
+// let result =arr.map(function(elem, i){
+//     return `$(elem), Pakistan`
+
+// })
+
+// console.log(result)
+
+
