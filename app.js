@@ -1167,3 +1167,27 @@
 // console.log(result)
 
 
+//filter; = // true or false deta 
+
+// let result=arr.filter(function(){
+//     return true
+// })
+
+// console.log(result)
+
+// let result=arr.filter(function(){
+//     return false
+// })
+
+// console.log(result)
+
+
+// let arr = [{name: 'multan',population: 1000}, {name: 'islamabad',population: 500}];
+
+// let result = arr.filter(function(){
+//     return elem.population > 500 && elem.population < 1000;
+// })
+
+// console.log(result)
+
+
