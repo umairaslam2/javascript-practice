@@ -1211,3 +1211,14 @@
 
 // console.log(result)
 
+// some: // ye true or false bta.
+
+// let student = [{name: "Ali", age: 20},{name: "Umair", age: 30}]
+
+// let result = student.some(function(v){
+//     return v.age === 20
+// })
+
+// console.log(result)
+
+
