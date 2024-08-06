@@ -1191,3 +1191,23 @@
 // console.log(result)
 
 
+// find: // ye single lata agar multiple lane to filter use karoo.
+
+// let student = [{name: "Ali", age: 20},{name: "Umair", age: 30}]
+
+// let result = student.find(function(v){
+//     return v.age === 20
+// })
+
+// console.log(result)
+
+// findIndex:
+
+// let student = [{name: "Ali", age: 20},{name: "Umair", age: 30}]
+
+// let result = student.findIndex(function(v){
+//     return v.age === 30
+// })
+
+// console.log(result)
+
