@@ -1284,3 +1284,30 @@
 //console.log (Math.pow(2,4))
 
 
+//classes:
+
+// class student {
+//     constructor(name){
+//         this.name = name;
+
+//     }
+// }
+
+// console.log(new student("Umair"))
+
+
+// class Student {
+//     constructor(name){
+//         this.name = name;
+
+//     }
+//     getName(){
+//         return this.name;
+//     }
+// }
+
+// let student = (new Student("Umair"))
+
+// console.log(student.getName())
+
+
