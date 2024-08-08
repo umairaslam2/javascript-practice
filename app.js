@@ -1279,3 +1279,8 @@
 // abc(2,3)
 
 
+// expontial operator;
+
+//console.log (Math.pow(2,4))
+
+
