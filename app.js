@@ -1380,6 +1380,23 @@
 // console.log(type)
 
 
+// Moduls: // import & Export;
+
+// Multi export:
+
+// let getDate = ()=>{
+//     return new Date().toDateString();
+// };
+
+// let getTime = ()=>{
+//     return new Date().getTime();
+// };
+
+// const appName = "Quiz"
+
+
+// export { getDate, getTime, appName };
+
 
 
 
