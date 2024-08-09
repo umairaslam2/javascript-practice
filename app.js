@@ -1371,6 +1371,15 @@
 // console.log(result)
 
 
+// Ternary operators: // 
+
+// let age = 20;
+
+// let type = age >= 20 ? "Eligible" : "Not Eligible"
+
+// console.log(type)
+
+
 
 
 
