@@ -1348,3 +1348,29 @@
 //encapsulation: // sare chezon ko aik jiga per rakhna.
 
 
+
+// iterators & generators: // conditon ki limit rakhna yani function ko 5 dfa call kana hai
+
+// generators me javascript ne yield ka method diyahai
+
+
+//Higher order function: //aik aesa function hai jo as a arument function deyta hai or receive be function karta hai
+
+// let foo = ()=>{
+//     return ()=>{
+//       cb()
+//     }
+// }
+
+// let cb = ()=>{
+
+// }
+
+// let result = foo(cb)
+
+// console.log(result)
+
+
+
+
+
