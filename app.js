@@ -1399,4 +1399,25 @@
 
 
 
+// Default export:
+
+
+// let getDate = ()=>{
+//     return new Date().toDateString();
+// };
+
+// let getTime = ()=>{
+//     return new Date().getTime();
+// };
+
+// const appName = "Quiz"
+
+// export default getDate;
+
+
+// export { getDate, getTime, appName };
+
+
+
+
 
