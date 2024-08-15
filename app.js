@@ -1472,6 +1472,39 @@
 //  getData()
 
 
+// ** JavaScript Coding Challenge:
+
+
+// 1. Reverse Words in a String:
+
+
+// function reverseWords(s) {
+//     // Split the string into an array of words
+//     let wordsArray = s.split(' ');
+
+//     // Reverse each word in the array
+//     let reversedWordsArray = wordsArray.map(word => {
+//         return word.split('').reverse().join('');
+//     });
+
+//     // Join the reversed words back into a single string with spaces
+//     let result = reversedWordsArray.join(' ');
+
+//     // Return the final reversed string
+//     return result;
+// }
+
+// // Example Usage
+// let inputString = "JavaScript is fun";
+// let outputString = reverseWords(inputString);
+// console.log(outputString); // Output: "tpircSavaJ si nuf"
+
+
+
+
+
+
+
 
 
 
