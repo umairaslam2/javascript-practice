@@ -1502,6 +1502,34 @@
 
 
 
+// 2. Capitalize the First Letter of Each Word:
+
+
+// function capitalizeWords(s) {
+//     // Split the string into an array of words
+//     let wordsArray = s.split(' ');
+
+//     // Capitalize the first letter of each word
+//     let capitalizedWordsArray = wordsArray.map(word => {
+//         if (word.length > 0) {
+//             return word.charAt(0).toUpperCase() + word.slice(1).toLowerCase();
+//         }
+//         return word; // In case of empty strings in the array
+//     });
+
+//     // Join the capitalized words back into a single string with spaces
+//     let result = capitalizedWordsArray.join(' ');
+
+//     // Return the final capitalized string
+//     return result;
+// }
+
+// // Example Usage
+// let inputString = "coding is fun";
+// let outputString = capitalizeWords(inputString);
+// console.log(outputString); // Output: "Coding Is Fun"
+
+
 
 
 
