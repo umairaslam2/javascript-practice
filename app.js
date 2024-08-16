@@ -1586,6 +1586,28 @@
 
 
 
+// 5. Check if a String is a Palindrome:
+
+
+
+// function isPalindrome(s) {
+//     // Clean the string: remove non-alphanumeric characters and convert to lowercase
+//     let cleanedString = s.replace(/[^a-zA-Z0-9]/g, '').toLowerCase();
+
+//     // Reverse the cleaned string
+//     let reversedString = cleanedString.split('').reverse().join('');
+
+//     // Compare the cleaned string with its reverse
+//     return cleanedString === reversedString;
+// }
+
+// // Example Usage
+// let inputString = "A man, a plan, a canal: Panama";
+// let result = isPalindrome(inputString);
+// console.log(result); // Output: true
+
+
+
 
 
 
