@@ -1557,6 +1557,35 @@
 // console.log(outputString); // Output: "jumped"
 
 
+// 4. Count the Occurrences of Each Character in a String:
+
+
+// function countCharacterOccurrences(s) {
+//     // Initialize an empty object to store character counts
+//     let charCount = {};
+
+//     // Iterate over each character in the string
+//     for (let char of s) {
+//         // If the character is already in the object, increment its count
+//         if (charCount[char]) {
+//             charCount[char]++;
+//         } else {
+//             // If the character is not in the object, initialize its count to 1
+//             charCount[char] = 1;
+//         }
+//     }
+
+//     // Return the object containing character counts
+//     return charCount;
+// }
+
+// // Example Usage
+// let inputString = "javascript";
+// let outputObject = countCharacterOccurrences(inputString);
+// console.log(outputObject); // Output: { j: 1, a: 2, v: 1, s: 1, c: 1, r: 1, i: 1, p: 1, t: 1 }
+
+
+
 
 
 
