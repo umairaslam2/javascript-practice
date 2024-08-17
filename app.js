@@ -1667,7 +1667,33 @@
 
 
 
+// 8. Find the Intersection of Two Arrays:
 
+
+// function intersection(nums1, nums2) {
+//     // Create a Set from the first array to handle uniqueness and fast lookup
+//     let set1 = new Set(nums1);
+    
+//     // Create a Set to store the intersection result
+//     let intersectionSet = new Set();
+    
+//     // Iterate over the second array
+//     for (let num of nums2) {
+//         // If the current number is in the set1, add it to intersectionSet
+//         if (set1.has(num)) {
+//             intersectionSet.add(num);
+//         }
+//     }
+    
+//     // Convert the result Set to an array and return it
+//     return Array.from(intersectionSet);
+// }
+
+// // Example Usage
+// let nums1 = [4, 9, 5];
+// let nums2 = [9, 4, 9, 8, 4];
+// let result = intersection(nums1, nums2);
+// console.log(result); // Output: [9, 4]
 
 
 
