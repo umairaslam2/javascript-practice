@@ -1760,40 +1760,80 @@
 
 
 
-11. Validate Parentheses:
+// 11. Validate Parentheses:
 
 
 
-function isValid(s) {
-    let stack = [];
-    let bracketMap = {
-        '(': ')',
-        '{': '}',
-        '[': ']'
-    };
+// function isValid(s) {
+//     let stack = [];
+//     let bracketMap = {
+//         '(': ')',
+//         '{': '}',
+//         '[': ']'
+//     };
     
-    for (let char of s) {
-        if (char in bracketMap) {
-            // If the character is an opening bracket, push it onto the stack
-            stack.push(char);
-        } else {
-            // If the character is a closing bracket
-            let topElement = stack.pop();
-            if (char !== bracketMap[topElement]) {
-                // If it does not match the expected closing bracket
-                return false;
-            }
-        }
-    }
+//     for (let char of s) {
+//         if (char in bracketMap) {
+//             // If the character is an opening bracket, push it onto the stack
+//             stack.push(char);
+//         } else {
+//             // If the character is a closing bracket
+//             let topElement = stack.pop();
+//             if (char !== bracketMap[topElement]) {
+//                 // If it does not match the expected closing bracket
+//                 return false;
+//             }
+//         }
+//     }
     
-    // If the stack is empty, all brackets are properly matched
-    return stack.length === 0;
-}
+//     // If the stack is empty, all brackets are properly matched
+//     return stack.length === 0;
+// }
 
-// Example Usage
-let inputString = "([{}])";
-let result = isValid(inputString);
-console.log(result); // Output: true
+// // Example Usage
+// let inputString = "([{}])";
+// let result = isValid(inputString);
+// console.log(result); // Output: true
+
+
+
+// 12. Merge Intervals:
+
+
+
+// function mergeIntervals(intervals) {
+//     // If there are no intervals, return an empty array
+//     if (intervals.length === 0) return [];
+
+//     // Sort intervals by their start time
+//     intervals.sort((a, b) => a[0] - b[0]);
+
+//     // Initialize the result with the first interval
+//     let merged = [intervals[0]];
+
+//     for (let i = 1; i < intervals.length; i++) {
+//         let current = intervals[i];
+//         let lastMerged = merged[merged.length - 1];
+
+//         // If the current interval overlaps with the last merged interval, merge them
+//         if (current[0] <= lastMerged[1]) {
+//             lastMerged[1] = Math.max(lastMerged[1], current[1]);
+//         } else {
+//             // Otherwise, add the current interval to the result
+//             merged.push(current);
+//         }
+//     }
+
+//     return merged;
+// }
+
+// // Example Usage
+// let inputIntervals = [[1, 3], [2, 6], [8, 10], [15, 18]];
+// let result = mergeIntervals(inputIntervals);
+// console.log(result); // Output: [[1, 6], [8, 10], [15, 18]]
+
+
+
 
 
 
