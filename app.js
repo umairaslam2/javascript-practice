@@ -1760,6 +1760,43 @@
 
 
 
+11. Validate Parentheses:
+
+
+
+function isValid(s) {
+    let stack = [];
+    let bracketMap = {
+        '(': ')',
+        '{': '}',
+        '[': ']'
+    };
+    
+    for (let char of s) {
+        if (char in bracketMap) {
+            // If the character is an opening bracket, push it onto the stack
+            stack.push(char);
+        } else {
+            // If the character is a closing bracket
+            let topElement = stack.pop();
+            if (char !== bracketMap[topElement]) {
+                // If it does not match the expected closing bracket
+                return false;
+            }
+        }
+    }
+    
+    // If the stack is empty, all brackets are properly matched
+    return stack.length === 0;
+}
+
+// Example Usage
+let inputString = "([{}])";
+let result = isValid(inputString);
+console.log(result); // Output: true
+
+
+
 
 
 
