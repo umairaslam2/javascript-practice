@@ -1869,6 +1869,39 @@
 // console.log(matrix); // Output: [[7, 4, 1], [8, 5, 2], [9, 6, 3]]
 
 
+// 14. Find the Duplicate Number:
+
+
+
+
+// function findDuplicate(nums) {
+//     // Phase 1: Finding intersection point in the cycle
+//     let tortoise = nums[0];
+//     let hare = nums[0];
+
+//     // Finding the intersection point of the two runners
+//     do {
+//         tortoise = nums[tortoise];
+//         hare = nums[nums[hare]];
+//     } while (tortoise !== hare);
+
+//     // Phase 2: Finding the entrance to the cycle
+//     let finder = nums[0];
+//     while (finder !== tortoise) {
+//         finder = nums[finder];
+//         tortoise = nums[tortoise];
+//     }
+
+//     return finder;
+// }
+
+// // Example Usage
+// let nums = [1, 3, 4, 2, 2];
+// let result = findDuplicate(nums);
+// console.log(result); // Output: 2
+
+
+
 
 
 
