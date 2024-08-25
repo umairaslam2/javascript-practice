@@ -1834,6 +1834,42 @@
 
 
 
+// 13. transpose the Matrix:
+
+
+// function rotate(matrix) {
+//     const n = matrix.length;
+
+//     // Transpose the matrix
+//     for (let i = 0; i < n; i++) {
+//         for (let j = i; j < n; j++) {
+//             [matrix[i][j], matrix[j][i]] = [matrix[j][i], matrix[i][j]];
+//         }
+//     }
+
+//     // Reverse each row
+//     for (let i = 0; i < n; i++) {
+//         let left = 0;
+//         let right = n - 1;
+//         while (left < right) {
+//             [matrix[i][left], matrix[i][right]] = [matrix[i][right], matrix[i][left]];
+//             left++;
+//             right--;
+//         }
+//     }
+// }
+
+// // Example Usage
+// let matrix = [
+//   [1, 2, 3],
+//   [4, 5, 6],
+//   [7, 8, 9]
+// ];
+// rotate(matrix);
+// console.log(matrix); // Output: [[7, 4, 1], [8, 5, 2], [9, 6, 3]]
+
+
+
 
 
 
