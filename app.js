@@ -1979,6 +1979,36 @@
 // checkArray({});
 
 
+//3.how to empty array in javascript
+
+
+// var arr = [1,2,3,4,5,6]
+
+// arr.length =0;
+
+// console.log(arr.length)
+
+
+
+
+//4.how would yo check if  number is an integer
+
+// var a = 12;
+
+// if(a%1 === 0){
+
+//     console.log("integer")
+
+// }
+
+// else{
+//     console.log("not")
+// }
+
+
+
+
+
 
 
 
