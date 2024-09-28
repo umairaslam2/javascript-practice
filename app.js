@@ -1968,6 +1968,16 @@
 // console.log(strSave.join(""))
 
 
+//2. how to check object is an array or not 
+
+
+// function checkArray (elem){
+//     console.log(Array.isArray(elem));
+// }
+
+// checkArray([]);
+// checkArray({});
+
 
 
 
