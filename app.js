@@ -2014,6 +2014,17 @@
 // console.log(duplicate([1, 2, 3, 4, 5]));
 
 
+//6 write a javascript function that reverse a number;
+
+
+// function reverseKaro(num){
+//    return Number(num.toString().split("").reverse().join(""))
+// }
+
+
+// console.log(reverseKaro(12));
+
+
 
 
 
