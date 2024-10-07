@@ -2048,6 +2048,19 @@
 // console.log(alphabatic("umair"))
 
 
+//9. write a javascript function that return first letter of string in capital;
+
+// function capitilizrKaro(str){
+//    var allwords = str.split(" ").map(function(word){
+//      return word.charAt(0).toUpperCase() + word.substring(1)
+//     })
+
+//    return allwords.join(" ");
+// }
+
+// console.log(capitilizrKaro("umair kese"))
+
+
 
 
 
