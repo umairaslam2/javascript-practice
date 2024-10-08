@@ -2079,6 +2079,18 @@
 
 // console.log(occ("apple"))
 
+// 11. loop an array and all member of it
+
+// var arr = [1,2,3,4,5];
+// var sum =0;
+
+// arr.forEach(function(elem){
+//     sum = sum + elem;
+
+// })
+
+// console.log(sum)
+
 
 
 
