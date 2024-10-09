@@ -2105,6 +2105,21 @@
 
 // console.log(sum)
 
+// 13. loop an array of object and remove all object which dotnot have value male;
+
+// var arr = [
+//     {name: "umair", gender: "male" },
+//     {name: "aslam", gender: "male" },
+//     {name: "sana", gender: "female" },
+//     {name: "umer", gender: "male" }
+// ]
+
+// var nerarr = arr.filter(function(elem){
+//     return elem.gender === "male"
+// })
+
+// console.log(nerarr)
+
 
 
 
