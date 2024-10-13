@@ -2129,6 +2129,18 @@
 // console.log(cloneArr([1,2,3,4,5]))
 
 
+// 15. wrtie a javascript function accepts an argument and return type ;
+
+// function typeTeller (elem){
+//    return typeof elem;
+// }
+
+// console.log(typeTeller([]));
+// console.log(typeTeller(12));
+// console.log(typeTeller("12"));
+// console.log(typeTeller(true));
+// console.log(typeTeller(undefined));
+
 
 
 
