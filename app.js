@@ -2161,6 +2161,30 @@
 
 // retrieve([1,2,3,4,5], 4)
 
+//17. write a javascript function to take last element of an array and retuen element of an array
+
+
+
+
+// function retrieve (arr, n=1){
+
+// if(n < arr.length){
+//   for(var i=0; i < n; i++){
+//     console.log(arr[arr.length-1 -i])
+
+//   }
+// }
+
+// else{
+//     console.log("itne to element be na ")
+// }
+
+// }
+
+// retrieve([1,2,3,4,5], 4)
+
+
+
 
 
 
