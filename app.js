@@ -2183,6 +2183,24 @@
 
 // retrieve([1,2,3,4,5], 4)
 
+// 18. find most frequent item of an array;
+
+// function freq(arr){
+//    var freq = {}
+ 
+//    arr.forEach(function(elem){
+//     if(freq.hasOwnProperty(elem)) freq[elem]++;
+//     else freq[elem] = 1;
+//    })
+
+//    console.log(freq);
+    
+   
+   
+// }
+
+// freq([1,2,3,12,3,34,12,3,6,7,1]);
+
 
 
 
