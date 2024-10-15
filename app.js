@@ -2201,7 +2201,28 @@
 
 // freq([1,2,3,12,3,34,12,3,6,7,1]);
 
+//19. write a javascript function to suffle an array;
 
+// function suffleKar(arr){
+//    var totalSuffleArea = arr.length;
+
+//    while(totalSuffleArea>0){
+
+//    totalSuffleArea --;
+
+//  var index =  Math.floor(Math.random()*totalSuffleArea);
+
+//  var temp = arr[totalSuffleArea];
+//  arr[totalSuffleArea] = arr[index];
+//  arr[index] = temp;
+
+// }
+
+// return arr;
+
+// }
+
+// console.log(suffleKar([1,2,3,4,5,6,7]));
 
 
 
