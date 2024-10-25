@@ -2237,6 +2237,97 @@
 
 
 
+// 1. VARIABLE declared without var,let and const:
+
+// if(true){
+//     variable = 10
+
+//     console.log(variable)
+// }
+
+
+
+// 2. HOISTING:
+
+//FUNCTION HOISTING:
+
+// myFunction();
+
+// function myFunction(){
+//     console.log('hello world');
+// }
+
+
+
+//VARIABLE HOISTING:
+
+// x=10;
+
+// console.log(x);
+
+// var x;
+
+
+// OBJECT:
+
+// let person = {
+//     name : 'umair',
+//     age : 30,
+//     grade : ['A' , 'B' , 'C'],
+//     greet : function(){
+//         console.log(this.name);
+//     }
+
+// };
+
+// console.log(person.name)
+
+
+
+// IF STATEMENT:
+
+// let x = 5;
+
+// if(x>5){
+//     console.log('notgo');
+// }else if(x<=5){
+//     console.log('go');
+
+// }else{
+//     console.log('do what you want');
+// }
+
+
+// SWITCH STATEMENT:
+
+// let a = 5;
+
+// switch(a){
+//     case 1:
+//         console.log('1');
+//         break;
+//         case 5:
+//             console.log('2');
+//             break;
+//             default:
+//                 console.log('3')
+
+// }
+
+
+
+// TERNARY OPERATORS:
+
+// let y = 10;
+
+// let z = y < 10 ? 'fail' : 'pass'
+
+// console.log(z)
+
+
+
+
+
 
 
 
