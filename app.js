@@ -2358,6 +2358,41 @@
 // }
 
 
+//APIS:
+
+// fetch('https')
+// .then(response =>
+//     response.json())
+//     .then(data =>
+//         console.log(data));
+
+
+
+//PROMISE:
+
+// let promise = new 
+// promise((resole,reject) =>{
+//     resolve('success')
+// }
+// )
+// promise.then(result=>{
+//     console.log(result)
+// })
+
+
+
+//ASYNC OR AWAIT:
+
+// async function getData(){
+//     let response = await
+//     fetch('https');
+//     let data = await
+//     response.json();
+//     console.log(data)
+// }
+// getData();
+
+
 
 
 
