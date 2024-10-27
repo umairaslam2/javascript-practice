@@ -2284,6 +2284,8 @@
 
 
 
+
+
 // IF STATEMENT:
 
 // let x = 5;
@@ -2323,6 +2325,38 @@
 // let z = y < 10 ? 'fail' : 'pass'
 
 // console.log(z)
+
+
+//MAP:
+
+// let arr = [1,2,3,4,5];
+
+// let mapArr = arr.map((e) =>  e*2);
+
+// console.log(mapArr)
+
+
+//FOR EACH:
+
+// let arr = [1,2,3,4,5];
+
+// arr.forEach((e) => {
+//    console.log(e*2)
+// })
+
+
+//FOR IN LOAP:
+
+
+// let person ={
+//     brand: 'king',
+//     name: 'Babar'  
+// }
+
+// for (let val in person){
+//     console.log(person[val])
+// }
+
 
 
 
