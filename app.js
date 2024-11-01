@@ -2418,7 +2418,22 @@
 
 
 
+//Destructuring
 
+// const person = {
+//     firstName: "Umair",
+//     lastName: "Aslam",
+//     age: 21,
+//     sex: "M"
+//    }
+     
+//    const first = person.firstName;
+//    const age = person.age;
+//    const city = person.city || "Patna";
+   
+//    console.log(first) 
+//    console.log(age) 
+//    console.log(city) 
 
 
 
