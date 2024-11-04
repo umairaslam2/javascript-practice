@@ -2454,6 +2454,18 @@
 //   console.log("Product: " + multiply);
 //   console.log("Quotient " + divide);
 
+// Ternary operator
+
+// if (authenticated) {
+//     console.log('home');
+//   } else {
+//     console.log('Login Page');
+//   }
+
+//   authenticated ?  console.log('home') : console.log('Login Page');
+
+
+
 
 
 
