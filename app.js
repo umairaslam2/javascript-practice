@@ -2481,8 +2481,13 @@
 // }
 // else{console.log("no it is not palindrome")}
 
+//spread practice
 
 
+// const numbers1 = [1, 2, 3, 4];
+// const numbers2 = [5, 6, 7, 8];
+// const numbersMarged = [...numbers1, ...numbers2];
+// console.log(numbersMarged);
 
 
 
