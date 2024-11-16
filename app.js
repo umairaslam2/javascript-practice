@@ -2492,11 +2492,18 @@
 
 const arr = [1,2,3,4,5]
 
-arr.map(v,ind) {
-    arr*2
-}
+arr.map((v,ind) => {
+    return v*2
+})
+
+const newArray = arr.map((v) =>{
+
+return v * 2
+
+})
 
 console.log(arr)
+console.log(newArray)
 
 
 
