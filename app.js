@@ -2490,7 +2490,13 @@
 // console.log(numbersMarged);
 
 
+const arr = [1,2,3,4,5]
 
+arr.map(v,ind) {
+    arr*2
+}
+
+console.log(arr)
 
 
 
