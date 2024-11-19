@@ -2490,24 +2490,54 @@
 // console.log(numbersMarged);
 
 
-const arr = [1,2,3,4,5]
+// const arr = [1,2,3,4,5]
 
-arr.map((v,ind) => {
-    return v*2
-})
+// arr.map((v,ind) => {
+//     return v*2
+// })
 
-const newArray = arr.map((v) =>{
+// const newArray = arr.map((v) =>{
 
-return v * 2
+// return v * 2
 
-})
+// })
 
-console.log(arr)
-console.log(newArray)
-
-
+// console.log(arr)
+// console.log(newArray)
 
 
+
+// 1. map
+
+// const users = [
+
+//  {id:1, Name: 'Umair', Age: 24},
+//  {id:1, Name: 'Umer', Age: 25},
+//  {id:1, Name: 'Uzair', Age: 26},
+
+// ]
+
+// const newUser = users.map(user=> ` ${user.Name} is ${user.Age} years old`)
+
+// console.log(newUser)
+
+
+
+// 2: Adding a New Property to Objects
+
+// const products = [
+
+//  {id:1, name: 'Mobile', price: 25000},
+//  {id:1, name: 'Laptop', price: 35000},
+//  {id:1, name: 'LED', price: 45000}
+
+// ]
+
+//  const discountedProducts = products.map (product => ({
+//     ...product, discountedPrice: product.price * 0.9
+//  }))
+
+//  console.log(discountedProducts)
 
 
 
