@@ -2540,7 +2540,36 @@
 //  console.log(discountedProducts)
 
 
+// 3: Create an array of employee objects with name, role, and salary. Use map to increase their salary by 20%.
 
 
+//  const employees = [
+
+//  {id:1, name: 'Salman', salary: 25000},
+//  {id:1, name: 'Uzair', salary: 35000},
+//  {id:1, name: 'Umair', salary: 45000}
+
+// ]
+
+//  const allEmployees = employees.map (employee => ({
+//     ...employee, increaseSalary: employee.salary * 1.2
+//  }))
+
+//  console.log(allEmployees)
+
+
+// 4: Check Even or Odd Numbers with
+
+// const array = [1,2,3,4,5,6]
+
+// const newArray = array.map(arr=>{
+//     if(arr %2===0){
+//     return `${arr} is even`
+//     }else{
+//         return `${arr} is odd`
+//     }
+// })
+
+// console.log(newArray)
 
 
