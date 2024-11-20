@@ -2606,3 +2606,21 @@
 //     console.log(book.toUpperCase())
 
 // })
+
+
+// Spread Operator (...)
+
+// 1: Spread Operator with Arrays
+
+// const array = [1,2,3,4]
+// const array2 = [...array,4,5]
+
+// console.log(array2)
+
+
+// 2: Spread Operator with Objects
+
+// const person ={name:'umair', Age: 31}
+// const updatedPerson = {...person, Age:31};
+
+// console.log(updatedPerson)
