@@ -2573,3 +2573,36 @@
 // console.log(newArray)
 
 
+// 2. forEach
+
+
+// const fruits = ['Apple', 'Banana', 'Peach']
+
+// fruits.forEach((fruit,index)=>{
+//     console.log(`frit is at index ${index} is ${fruit}`)
+// })
+
+
+
+// 2: Summing Array Elements
+
+// const adding = [10,21,35,78]
+// let sum = 0;
+
+// adding.forEach(add =>{
+//     sum+=add
+// })
+
+// console.log(`sum: ${sum}`)
+
+
+// Task 1: Log Book Titles in Uppercase
+
+
+// const bookTitle = ['english', 'urdu']
+
+// bookTitle.forEach(book=>{
+
+//     console.log(book.toUpperCase())
+
+// })
