@@ -2665,3 +2665,53 @@
 // console.log(remainingCart)
 
 
+// Rest Operator (...)
+
+// 1: Rest Operator in Functions
+
+// function sum(...numbers){
+//     return numbers.reduce((acc,num)=>acc + num, 0)
+// }
+
+// console.log(sum(1,2,3,4))
+
+
+// filter Method
+
+// const filterMethod = [1,2,3,4,5,6]
+
+// const filterTest = filterMethod.filter(number => number > 3)
+
+// console.log(filterTest)
+
+
+// Coding Challenge: Filter Active Users
+// You are managing a user list for an application. Each user object contains name and isActive properties. Your task is:
+
+// Filter out only the active users (where isActive is true).
+// Create a new array of names of the active users.
+
+
+
+// const users = [
+//     {name:'uzair', isActive: true},
+//     {name:'umair', isActive: false},
+//     {name:'umer', isActive: true}
+// ]
+
+// const activeUser = users.filter(user=> user.isActive)
+
+// console.log(activeUser)
+
+// const activeName = activeUser.map(user=>user.name)
+
+// console.log(activeName)
+
+
+// find Method
+
+// const numbers = [10, 20, 30, 40, 50];
+
+// const firstLargeNumber = numbers.find(number => number > 25);
+
+// console.log(firstLargeNumber);
