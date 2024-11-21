@@ -2624,3 +2624,44 @@
 // const updatedPerson = {...person, Age:31};
 
 // console.log(updatedPerson)
+
+
+// Rest Operator (...)
+
+// 1: Rest Operator in Functions
+
+// function sum(...numbers){
+//     return numbers.reduce((acc,num)=>acc + num, 0)
+// }
+
+// console.log(sum(1,2,3,4))
+
+
+// 2: Rest Operator in Object Destructuring
+
+// const person = {name: 'Umair', Salary: 25000, Role: 'webdev'}
+// const{name,...otherInfo} = person
+
+// console.log(otherInfo)
+
+
+// Coding Challenge: Shopping Cart
+// You are working on a shopping cart system. Your tasks are:
+
+// Create a new cart that includes items from two different existing arrays of products. Use the spread operator to combine them.
+// Add a new product to the cart without modifying the original cart.
+// Remove the first product from the cart while keeping the rest of the items intact using the rest operator.
+
+
+// const cart1 = ['laptop','mobile']
+// const cart2 = ['led','tv']
+// const cart = [...cart1,...cart2]
+
+// const addCart = ['ipad']
+// const updatedCart = [...cart,...addCart]
+
+// const[, ...remainingCart] = updatedCart
+
+// console.log(remainingCart)
+
+
