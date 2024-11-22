@@ -2715,3 +2715,35 @@
 // const firstLargeNumber = numbers.find(number => number > 25);
 
 // console.log(firstLargeNumber);
+
+
+
+// reduce Method
+
+// const numbers = [10, 20, 30, 40];
+
+// const total = numbers.reduce((accumulator, currentValue) => accumulator + currentValue, 0);
+
+// console.log(total); 
+
+
+// Coding Challenge: Total Order Price
+// You are working on an ecommerce website. Each item in a user's shopping cart has a price and quantity. Your task is:
+
+// Calculate the total price of all items in the cart using the reduce method.
+
+
+//  const cart = [
+
+//  { name: 'Salman', price: 5000, quantity:1 },
+//  { name: 'Uzair', price: 3000, quantity:1},
+//  { name: 'Umair', price: 4000, quantity:2}
+
+// ]
+
+// const totalCart =cart.reduce((acc, item)=>{
+//     return acc + (item.price * item.quantity)
+// },0)
+
+// console.log(totalCart)
+
