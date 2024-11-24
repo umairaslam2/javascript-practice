@@ -2747,3 +2747,71 @@
 
 // console.log(totalCart)
 
+
+// Destructuring
+
+// Array Destructuring
+
+// const fruits = ['Apple', 'Banana', 'Cherry'];
+// const [fruit1, fruit2, fruit3] = fruits;
+
+// console.log(fruit1); 
+// console.log(fruit2); 
+// console.log(fruit3); 
+
+
+// Object Destructuring
+
+// const person = { name: 'John', age: 30 };
+// const { name, age } = person;
+
+// console.log(name); 
+// console.log(age);  
+
+
+// Nested Destructuring
+
+// const user = { name: 'Jane', address: { city: 'New York', zip: '10001' } };
+// const { name, address: { city, zip } } = user;
+
+// console.log(name);  
+// console.log(city);  
+// console.log(zip);   
+
+
+//Ternary Operator
+
+// const age = 18;
+// const message = age >= 18 ? "You are an adult." : "You are a minor.";
+
+// console.log(message); 
+
+
+// Coding Challenge: Determine Access Level
+// You are working with a user permissions system. Based on the user’s role, your task is:
+
+// If the role is "admin", the user should have full access.
+// If the role is "editor", the user should have limited access.
+// If the role is "viewer", the user should only have view access.
+// If the role is something else, the user should have no access.
+
+// const role = 'viewer'
+
+
+// const accessLevel = role === 'Admin' ? 'fullaccess' :
+//                     role === 'editor' ? 'limitedaccess':
+//                     role === 'viewer' ? 'view access':
+//                     'no Access'
+
+// console.log(accessLevel)
+
+
+
+
+
+
+
+
+
+
+
