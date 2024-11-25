@@ -2805,6 +2805,10 @@
 
 // console.log(accessLevel)
 
+var username = 'admin';
+ var password = 12345;
+ 
+ (username=='admin' & password==12345 ? alert('login successfully') : alert('invalid username or password') )
 
 
 
