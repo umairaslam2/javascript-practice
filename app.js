@@ -2876,6 +2876,17 @@
 //  console.log(orderTot)
 
 
+// const students = [
+
+//  {id:1, Name: 'Umair', Age: 24},
+//  {id:1, Name: 'Umer', Age: 25},
+//  {id:1, Name: 'Uzair', Age: 26},
+
+// ]
+
+// const newStudents = students.map(student=> ` ${student.Name} is ${student.Age} years old`)
+
+// console.log(newStudents)
 
 
 
