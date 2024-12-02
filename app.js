@@ -2904,5 +2904,57 @@
 
 
 
+// practice:
 
+
+// var myarr = [8,2,5,6,7,11]
+// var min = myarr[0]
+// for(i = 0 ; i < myarr.length ; i++){
+//     if(myarr[i] > min){
+//         min = myarr[i]
+//     }
+// }
+// console.log(min)
+
+// var arr = [1,2,3,4,6,7,8,9,10]
+// for(var i = 0; i < arr.length;i++){
+// if(arr[i +1] - arr[i] === 2){
+//     console.log(arr[i]+1)
+// }
+// }
+
+
+
+//* ---------------------------------------------------------
+//* Programming Question: Longest Word in a String
+//* ---------------------------------------------------------
+
+//? Q: Write a function findLongestWord that takes a string as input and returns the longest word in the string. If there are multiple longest words, return the first one encountered.
+
+//* Constraints:
+//? The input string may contain alphabetic characters, digits, spaces, and punctuation.
+//? The input string is non-empty.
+//? The input string may contain multiple words separated by spaces.
+
+//* Note:
+//? If the input string is empty or contains only whitespace, the function should return an false.
+//? The function should ignore leading and trailing whitespace when determining the longest word.
+
+// const findLongestWord = (str) => {
+//     if (str.trim().length === 0) {
+//       return false;
+//     }
+  
+//     words = str.split(" ");
+//     words = words.sort((a, b) => b.length - a.length);
+//     console.log(words);
+//     // return words.at(-1);
+//     return words[0];
+//   };
+  
+//   console.log(
+//     findLongestWord(
+//       "Watch Thapa Technical javascript awesomethapatechnical course on youtube"
+//     )
+//   );
 
