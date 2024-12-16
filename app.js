@@ -625,6 +625,27 @@
 // }
 
 
+// var fName = prompt("first name");
+// var lName = prompt("last name");
+// document.write(`first name is ${fName} </br> Last Name is ${lName} </br> again name is ${fName} </br> This is javascript Mr. ${fName} ${lName}`)
+
+// var race = ["earth","race"];
+// var race = ["race", "earth"];
+// for(i = race.length -1 ; i > -1 ; i--) {
+//     race = race.reverse()
+//     console.log("yes it is anagram"+ " " + race[i])
+//     if(race[i]  == "care"){
+//     }
+// }
+
+// for (i = 1; i <= 5; i++) {
+//   for (j = i; j >= 1; j--) {
+//     document.write(j);
+//   }
+//   document.write("</br>");
+// }
+
+
 // var arr = ["civic","madam","radar"];
 // var user = prompt("enter to search palindrome words");
 // var check = false
