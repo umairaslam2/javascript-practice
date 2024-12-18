@@ -413,6 +413,48 @@
 
 // }
 
+//spread practice
+
+
+// const numbers1 = [1, 2, 3, 4];
+// const numbers2 = [5, 6, 7, 8];
+// const numbersMarged = [...numbers1, ...numbers2];
+// console.log(numbersMarged);
+
+
+// const arr = [1,2,3,4,5]
+
+// arr.map((v,ind) => {
+//     return v*2
+// })
+
+// const newArray = arr.map((v) =>{
+
+// return v * 2
+
+// })
+
+// console.log(arr)
+// console.log(newArray)
+
+
+
+// 1. map
+
+// const users = [
+
+//  {id:1, Name: 'Umair', Age: 24},
+//  {id:1, Name: 'Umer', Age: 25},
+//  {id:1, Name: 'Uzair', Age: 26},
+
+// ]
+
+// const newUser = users.map(user=> ` ${user.Name} is ${user.Age} years old`)
+
+// console.log(newUser)
+
+
+
 // var num1 = +prompt("enter first number")
 // var operator = prompt("enter operator")
 // var num2 = +prompt("enter second number")
