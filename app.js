@@ -4185,3 +4185,42 @@ const filterSearch = (value) => {
 // for (var i = 0; i < 10; i++) {
 //   console.log(i);
 // }
+
+
+// const a = {}
+
+// a.name = "umair"
+
+// console.log(a)
+
+// const se value updat nahi hoti error ata let se hoti hai 
+// const a = {}
+
+// a = {name: "umair"}
+
+// console.log(a)
+
+// let a = {}
+
+// a = {name: "umair"}
+
+// console.log(a)
+
+
+// var hoist hota hai let or const nahi hota
+
+//synchronous ka matlab error hai to nahi chalta;
+            //OR
+//Asynchronous code KA MATLAB kissi line of code ma error hai to isska wait nahi karna dusri line chala loo
+
+// for (var i =0; i< 5; i++){
+//     setTimeout(function(){
+//       console.log(i)
+//     },1000)
+// }
+
+// for (let i =0; i< 5; i++){
+//     setTimeout(function(){
+//       console.log(i)
+//     },1000)
+// }
