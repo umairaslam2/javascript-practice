@@ -4301,3 +4301,32 @@ const filterSearch = (value) => {
 //   if (result.indexOf(str[i]) === -1) {
 //     result += str[i];
 //   }
+
+. Group Anagrams:
+
+
+// function groupAnagrams(strs) {
+//     let map = new Map();
+
+//     // Iterate through each word in the input array
+//     for (let str of strs) {
+//         // Sort the characters in the word to form the key
+//         let sortedStr = str.split('').sort().join('');
+        
+//         // If the key does not exist in the map, initialize with an empty array
+//         if (!map.has(sortedStr)) {
+//             map.set(sortedStr, []);
+//         }
+        
+//         // Add the current word to the corresponding array in the map
+//         map.get(sortedStr).push(str);
+//     }
+    
+//     // Convert the values of the map to an array and return
+//     return Array.from(map.values());
+// }
+
+// // Example Usage
+// let inputArray = ["eat", "tea", "tan", "ate", "nat", "bat"];
+// let result = groupAnagrams(inputArray);
+// console.log(result); // Output: [["eat", "tea", "ate"], ["tan", "nat"], ["bat"]]
