@@ -4330,3 +4330,23 @@ const filterSearch = (value) => {
 // let inputArray = ["eat", "tea", "tan", "ate", "nat", "bat"];
 // let result = groupAnagrams(inputArray);
 // console.log(result); // Output: [["eat", "tea", "ate"], ["tan", "nat"], ["bat"]]
+
+
+// Rest Operator (...)
+
+// 1: Rest Operator in Functions
+
+// function sum(...numbers){
+//     return numbers.reduce((acc,num)=>acc + num, 0)
+// }
+
+// console.log(sum(1,2,3,4))
+
+
+// filter Method
+
+// const filterMethod = [1,2,3,4,5,6]
+
+// const filterTest = filterMethod.filter(number => number > 3)
+
+// console.log(filterTest)
