@@ -4395,3 +4395,50 @@ const filterSearch = (value) => {
 // console.log(result); // Output: 2
 
 
+// Ternary operators: // 
+
+// let age = 20;
+
+// let type = age >= 20 ? "Eligible" : "Not Eligible"
+
+// console.log(type)
+
+
+// Moduls: // import & Export;
+
+// Multi export:
+
+// let getDate = ()=>{
+//     return new Date().toDateString();
+// };
+
+// let getTime = ()=>{
+//     return new Date().getTime();
+// };
+
+// const appName = "Quiz"
+
+
+// export { getDate, getTime, appName };
+
+
+
+// Default export:
+
+
+// let getDate = ()=>{
+//     return new Date().toDateString();
+// };
+
+// let getTime = ()=>{
+//     return new Date().getTime();
+// };
+
+// const appName = "Quiz"
+
+// export default getDate;
+
+
+// export { getDate, getTime, appName };
+
+
