@@ -4460,3 +4460,46 @@ const filterSearch = (value) => {
 // export { getDate, getTime, appName };
 
 
+// IF STATEMENT:
+
+// let x = 5;
+
+// if(x>5){
+//     console.log('notgo');
+// }else if(x<=5){
+//     console.log('go');
+
+// }else{
+//     console.log('do what you want');
+// }
+
+
+// SWITCH STATEMENT:
+
+// let a = 5;
+
+// switch(a){
+//     case 1:
+//         console.log('1');
+//         break;
+//         case 5:
+//             console.log('2');
+//             break;
+//             default:
+//                 console.log('3')
+
+// }
+
+
+
+// TERNARY OPERATORS:
+
+// let y = 10;
+
+// let z = y < 10 ? 'fail' : 'pass'
+
+// console.log(z)
+
+
+
+
