@@ -4536,7 +4536,7 @@ const filterSearch = (value) => {
 // console.log(matrix); // Output: [[7, 4, 1], [8, 5, 2], [9, 6, 3]]
 
 
-/ Nested Destructuring
+// Nested Destructuring
 
 // const user = { name: 'Jane', address: { city: 'New York', zip: '10001' } };
 // const { name, address: { city, zip } } = user;
@@ -4561,6 +4561,39 @@ const filterSearch = (value) => {
 // If the role is "editor", the user should have limited access.
 // If the role is "viewer", the user should only have view access.
 // If the role is something else, the user should have no access.
+
+// optional chaning;
+
+
+    // let obj = {
+    //     name: "Umair",
+    //     institute: {
+    //          name: "SMIT"
+    //     }
+    
+    // };
+
+    // console.log(obj?.institute?.detail?.name)
+
+    // console.log(obj.name)
+
+
+    // callback; //ASYRONOUS
+
+
+// function abc(cb){
+//     setTimeout(function(){
+//          console.log("Done")
+//          cb();
+//     },5000)
+// }
+
+// function myCallback(){
+//     console.log("ABC FREE")
+// }
+
+// abc(myCallback);
+
 
 
 
