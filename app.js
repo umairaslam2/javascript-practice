@@ -4595,6 +4595,44 @@ const filterSearch = (value) => {
 // abc(myCallback);
 
 
+12. Merge Intervals:
+
+
+
+// function mergeIntervals(intervals) {
+//     // If there are no intervals, return an empty array
+//     if (intervals.length === 0) return [];
+
+//     // Sort intervals by their start time
+//     intervals.sort((a, b) => a[0] - b[0]);
+
+//     // Initialize the result with the first interval
+//     let merged = [intervals[0]];
+
+//     for (let i = 1; i < intervals.length; i++) {
+//         let current = intervals[i];
+//         let lastMerged = merged[merged.length - 1];
+
+//         // If the current interval overlaps with the last merged interval, merge them
+//         if (current[0] <= lastMerged[1]) {
+//             lastMerged[1] = Math.max(lastMerged[1], current[1]);
+//         } else {
+//             // Otherwise, add the current interval to the result
+//             merged.push(current);
+//         }
+//     }
+
+//     return merged;
+// }
+
+// // Example Usage
+// let inputIntervals = [[1, 3], [2, 6], [8, 10], [15, 18]];
+// let result = mergeIntervals(inputIntervals);
+// console.log(result); // Output: [[1, 6], [8, 10], [15, 18]]
+
+
+
+
 
 
 
