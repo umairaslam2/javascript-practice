@@ -4631,7 +4631,31 @@ const filterSearch = (value) => {
 // console.log(result); // Output: [[1, 6], [8, 10], [15, 18]]
 
 
+// 11. loop an array and all member of it
 
+// var arr = [1,2,3,4,5];
+// var sum =0;
+
+// arr.forEach(function(elem){
+//     sum = sum + elem;
+
+// })
+
+// console.log(sum)
+
+// 12. in an array of number or str only add those number which are not str;
+
+// var arr = ["umair", 1, 3, "aslam"]
+// var sum = 0;
+
+// arr.forEach(function(elem){
+//     if(typeof elem === "number"){
+//         sum = sum + elem;
+//     }
+
+// })
+
+// console.log(sum)
 
 
 
