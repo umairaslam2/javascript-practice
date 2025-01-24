@@ -4736,3 +4736,24 @@ const filterSearch = (value) => {
 // console.log(name)
 // console.log(email)
 // console.log(time)
+
+
+// daynamic property name;
+
+// let student = {
+//     name: "Umair",
+//     email: "umair@company.com"
+// }
+
+// let search = "name";
+
+// let { [search]: a } = student;
+
+// console.log(a)
+
+
+// let arr = ["umair", "aslam", 336];
+
+// let [a,b,c] = arr;
+
+// console.log(a, b, c)
