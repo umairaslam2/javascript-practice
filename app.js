@@ -4757,3 +4757,36 @@ const filterSearch = (value) => {
 // let [a,b,c] = arr;
 
 // console.log(a, b, c)
+
+
+// 10. Longest Substring Without Repeating Characters:
+
+
+// function lengthOfLongestSubstring(s) {
+//     let left = 0;
+//     let maxLength = 0;
+//     let seen = new Set();
+    
+//     for (let right = 0; right < s.length; right++) {
+//         // If the character is already in the set, remove characters from the left
+//         while (seen.has(s[right])) {
+//             seen.delete(s[left]);
+//             left++;
+//         }
+        
+//         // Add the current character to the set
+//         seen.add(s[right]);
+        
+//         // Update the maximum length
+//         maxLength = Math.max(maxLength, right - left + 1);
+//     }
+    
+//     return maxLength;
+// }
+
+// // Example Usage
+// let inputString = "abcabcbb";
+// let result = lengthOfLongestSubstring(inputString);
+// console.log(result); // Output: 3
+
+
