@@ -4790,3 +4790,25 @@ const filterSearch = (value) => {
 // console.log(result); // Output: 3
 
 
+//5. make duplicate;
+
+// function duplicate(arr){
+//     return arr.concat(arr);
+// }
+
+// console.log(duplicate([1, 2, 3, 4, 5]));
+
+
+//6 write a javascript function that reverse a number;
+
+
+// function reverseKaro(num){
+//    return Number(num.toString().split("").reverse().join(""))
+// }
+
+
+// console.log(reverseKaro(12));
+
+
+
+
