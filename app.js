@@ -4906,4 +4906,52 @@ const filterSearch = (value) => {
 // generators me javascript ne yield ka method diyahai
 
 
+// *************** Solve BAsic Questions ***********
+
+// var string = "ahsan"
+// string = string.split("")
+// var reverser = string.reverse("")
+// var join = reverser.join("");
+//     console.log(join);
+// var string =  "kayak";
+// var revString = string.split("").reverse("").join("")
+// var myString = string
+// if(myString === revString){
+//     console.log("Yes it is palindrome")
+// }
+// else{console.log("no it is not palindrome")}
+
+// var arr = [123,34343,3434343,990078501];
+// var number = ""
+// for( var i = 0 ;i < arr.length.toString(); i++ ){
+//     if(arr[i].toString().length > number.toString().length){
+//         number = arr[i]
+//     }
+// }
+// console.log(number)
+// let str = 'hello world';
+// let result = '';
+// for (let i = 0; i < str.length; i++) {
+//   if (result.indexOf(str[i]) === -1) {
+//     result += str[i];
+//   }
+// }
+// console.log(result); //
+
+// var search = prompt("enter word to search");
+// if(search >= "a" && search <= "z"){
+//     console.log(search.charCodeAt() +  " " + "lower Case")
+// }
+// else if(search >= "A" && search  <= "Z"){
+//     console.log(search.charCodeAt() + " " + "Upper Case")
+// }
+// else  if(search >= "0" && search <= "9" ){
+//     console.log(search.charCodeAt() + " " + "is number")
+// }
+// else{
+//     console.log(search.charCodeAt() + " " + "symbols")
+// }
+
+
+
 
