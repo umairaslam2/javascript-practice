@@ -4865,5 +4865,45 @@ const filterSearch = (value) => {
 
 // console.log(totalCart)
 
+//Inheritance: // jo abu ka wohamara 
+
+// class Institute {
+//     constructor(){
+//         this.inst = "SMIT"
+//     }
+// }
+
+// class Student extends Institute {
+//     constructor(name, inst){
+//         super(inst);
+//         this.name = name;
+//         this.inst = this.inst;
+
+//     }
+//     getName(){
+//         return this.name;
+//     }
+// }
+
+// let student = (new Student("Umair"))
+
+// console.log(student)
+
+
+
+//abstraction: //jo asal cheiz hai iss ko user se chupe ke rakhna.// for example: AC ke ander kya hai ham ko nahi pta.
+
+
+
+//polymorphism: // aik hi cheiz se multiple time. // for example Projecter.
+
+//encapsulation: // sare chezon ko aik jiga per rakhna.
+
+
+
+// iterators & generators: // conditon ki limit rakhna yani function ko 5 dfa call kana hai
+
+// generators me javascript ne yield ka method diyahai
+
 
 
