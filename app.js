@@ -4981,3 +4981,45 @@ const filterSearch = (value) => {
 
 
 
+// some: // ye true or false bta.
+
+// let student = [{name: "Ali", age: 20},{name: "Umair", age: 30}]
+
+// let result = student.some(function(v){
+//     return v.age === 20
+// })
+
+// console.log(result)
+
+
+//reduce: //ye kissi array ka some nikaldeta.
+
+
+// let student = [{name: "Ali", age: 20, fee: 1545},{name: "Umair", age: 30, fee: 3131}]
+
+// let result = student.reduce(function(a,v,i){
+//     return a + v.fee;
+// }, 0)
+
+// console.log(result)
+
+
+//Arrow Function: // function ka keyword remove karke => use karte,
+
+
+// let abc = (a,b) => {
+//     return a * b;
+// }
+
+// console.log(abc(2, 2));
+
+            // OR://
+
+
+// let abc = (a,b) => a * b;
+
+
+// console.log(abc(2, 2));
+
+
+
