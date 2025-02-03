@@ -5083,5 +5083,57 @@ const filterSearch = (value) => {
 // }
 
 
+//Array method; = // for loap ki replacement or ye kuch return nhai karta hai;
+
+// foreach kuch return nahi karta;
+
+
+//  let arr = ["Multan", "Islamabad", "Faislabad"]
+
+// arr.forEach(function(elem, i){
+//   console.log(elem, i)
+// })
+
+
+// arr.forEach(function(elem, i, all){
+//   console.log(elem, i, all)
+// })
+
+
+// map return karsakte hai or aik array ko use karke naya array bnadeta;
+
+
+// let result =arr.map(function(elem, i){
+//     return `$(elem), Pakistan`
+
+// })
+
+// console.log(result)
+
+
+//filter; = // true or false deta 
+
+// let result=arr.filter(function(){
+//     return true
+// })
+
+// console.log(result)
+
+// let result=arr.filter(function(){
+//     return false
+// })
+
+// console.log(result)
+
+
+// let arr = [{name: 'multan',population: 1000}, {name: 'islamabad',population: 500}];
+
+// let result = arr.filter(function(){
+//     return elem.population > 500 && elem.population < 1000;
+// })
+
+// console.log(result)
+
+
 
 
