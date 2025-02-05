@@ -5189,5 +5189,37 @@ const filterSearch = (value) => {
 // })
 
 
+// 7. Remove Duplicates from an Array:
+
+
+
+// function removeDuplicates(nums) {
+//     // Edge case: if the array is empty, return 0
+//     if (nums.length === 0) return 0;
+
+//     // Initialize the index for the last unique element
+//     let lastUniqueIndex = 0;
+
+//     // Iterate through the array starting from the second element
+//     for (let i = 1; i < nums.length; i++) {
+//         // If the current element is different from the last unique element
+//         if (nums[i] !== nums[lastUniqueIndex]) {
+//             // Move the current element to the next position for unique elements
+//             lastUniqueIndex++;
+//             nums[lastUniqueIndex] = nums[i];
+//         }
+//     }
+
+//     // Return the new length of the array (lastUniqueIndex + 1)
+//     return lastUniqueIndex + 1;
+// }
+
+// // Example Usage
+// let inputArray = [0, 0, 1, 1, 2, 2, 3, 3, 4];
+// let newLength = removeDuplicates(inputArray);
+// console.log(newLength); // Output: 5
+// console.log(inputArray.slice(0, newLength)); // Output: [0, 1, 2, 3, 4]
+
+
 
 
