@@ -5136,4 +5136,58 @@ const filterSearch = (value) => {
 
 
 
+//MAP:
+
+// let arr = [1,2,3,4,5];
+
+// let mapArr = arr.map((e) =>  e*2);
+
+// console.log(mapArr)
+
+
+//FOR EACH:
+
+// let arr = [1,2,3,4,5];
+
+// arr.forEach((e) => {
+//    console.log(e*2)
+// })
+
+
+//FOR IN LOAP:
+
+
+// let person ={
+//     brand: 'king',
+//     name: 'Babar'  
+// }
+
+// for (let val in person){
+//     console.log(person[val])
+// }
+
+
+//APIS:
+
+// fetch('https')
+// .then(response =>
+//     response.json())
+//     .then(data =>
+//         console.log(data));
+
+
+
+//PROMISE:
+
+// let promise = new 
+// promise((resole,reject) =>{
+//     resolve('success')
+// }
+// )
+// promise.then(result=>{
+//     console.log(result)
+// })
+
+
+
 
