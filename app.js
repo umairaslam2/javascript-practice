@@ -5221,5 +5221,24 @@ const filterSearch = (value) => {
 // console.log(inputArray.slice(0, newLength)); // Output: [0, 1, 2, 3, 4]
 
 
+// Array or object li value by reference save hoti hai
 
+// const a = {}
+
+// a.name = "umair"
+
+// console.log(a)
+
+// const se value updat nahi hoti error ata let se hoti hai 
+// const a = {}
+
+// a = {name: "umair"}
+
+// console.log(a)
+
+// let a = {}
+
+// a = {name: "umair"}
+
+// console.log(a)
 
