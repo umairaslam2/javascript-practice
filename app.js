@@ -5313,5 +5313,49 @@ const filterSearch = (value) => {
 // console.log(time)
 
 
+// 1. VARIABLE declared without var,let and const:
+
+// if(true){
+//     variable = 10
+
+//     console.log(variable)
+// }
+
+
+
+// 2. HOISTING:
+
+//FUNCTION HOISTING:
+
+// myFunction();
+
+// function myFunction(){
+//     console.log('hello world');
+// }
+
+
+
+//VARIABLE HOISTING:
+
+// x=10;
+
+// console.log(x);
+
+// var x;
+
+
+// OBJECT:
+
+// let person = {
+//     name : 'umair',
+//     age : 30,
+//     grade : ['A' , 'B' , 'C'],
+//     greet : function(){
+//         console.log(this.name);
+//     }
+
+// };
+
+// console.log(person.name)
 
 
