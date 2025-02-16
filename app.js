@@ -5421,3 +5421,76 @@ const filterSearch = (value) => {
 
 // })
 
+
+
+// Default export:
+
+
+// let getDate = ()=>{
+//     return new Date().toDateString();
+// };
+
+// let getTime = ()=>{
+//     return new Date().getTime();
+// };
+
+// const appName = "Quiz"
+
+// export default getDate;
+
+
+// export { getDate, getTime, appName };
+
+
+// promises:
+
+
+
+// let getvalue = new Promise((resolve, reject) =>{
+//     setTimeout(() =>{
+//         resolve("Data Agaya")
+//     })
+// })
+
+// getvalue
+//    .then(res => console.log(res))
+//    .catch(er => console.log(err))
+
+// let data = new Promise((resolve, reject)=>{
+    
+//     resolve("Resolve")
+    
+// })
+
+// data
+//  .then((res)=>console.log(res))
+//  .catch((err) => console.log(err));
+
+
+
+// let data = new Promise((resolve, reject)=>{
+
+//     fetch('https://fakestoreapi.com/products')
+//      .then((res) =>res.json()) //asycronus code;
+//      .then((json) => resolve(json))
+//      .catch(err => reject(err))
+//     });
+
+// data.then((res)=>console.log(res)).catch((err) => console.log(err));
+
+
+// let getData = async () =>{
+// try{
+//    let products = await data;
+//    console.log(products)
+// } catch(err) {
+//     console.log(err)
+//  }
+// };
+// getData();
+
+// let getData = async () =>{
+//     let products = await data;
+//     console.log(products)
+//  }
+//  getData()
