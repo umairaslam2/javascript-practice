@@ -5530,3 +5530,20 @@ const filterSearch = (value) => {
 // let inputString = "abcabcbb";
 // let result = lengthOfLongestSubstring(inputString);
 // console.log(result); // Output: 3
+
+
+// var gender = prompt("enter your gender")
+// if(gender === "male"){
+// alert("Good Morning Sir")
+// }else(alert("Good Morning Madam"))
+// var signalColor = prompt("enter color name to know alerts")
+// if(signalColor === "red"){
+//   alert("Must Stop")
+// }
+// if(signalColor === "yellow"){
+//   alert("Ready to Move")
+// }
+
+// if(signalColor === "green"){
+//   alert("move now")
+// }
