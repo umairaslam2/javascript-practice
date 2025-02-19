@@ -5547,3 +5547,27 @@ const filterSearch = (value) => {
 // if(signalColor === "green"){
 //   alert("move now")
 // }
+
+
+//6 write a javascript function that reverse a number;
+
+
+// function reverseKaro(num){
+//    return Number(num.toString().split("").reverse().join(""))
+// }
+
+
+// console.log(reverseKaro(12));
+
+
+// 7 write a javascript function tat check if  number is palindrome or not;
+
+
+// function palindromCheck(str){
+//   var reversed =  str.split("").reverse().join("");
+
+//   if(reversed === str) return true;
+//   else return false;
+// }
+
+// console.log(palindromCheck("lool"))
