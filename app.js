@@ -5571,3 +5571,40 @@ const filterSearch = (value) => {
 // }
 
 // console.log(palindromCheck("lool"))
+
+
+// spread operater; // ye donu ko marge kardeta or array me deta;
+
+// let arr = ["umair", "aslam"];
+
+// let arr1 = ["ali", "uzair"];
+
+// let mar = [...arr, ...arr1];
+
+// console.log(mar)
+
+// let student = {
+//     name: "Umair",
+//     email: "umair@company.com"
+// }
+
+// let school = {
+//     schoolName: "SMIT",
+//     location: "TariqRoad"
+// }
+
+// console.log({...student, ...school})
+
+
+// sello copy; // update hota hai;
+
+
+// let obj = {name: "Umair"}
+
+// let obj1 = obj
+
+// let obj2 = obj1
+
+// obj2.name = "Aslam"
+
+// console.log(obj, obj1,obj2)
