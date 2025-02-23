@@ -5654,3 +5654,64 @@ const filterSearch = (value) => {
 // [a, b, c] = arr;
 
 // console.log(b);
+
+// let student = {
+//     name: "Umair",
+//     email: "umair@company.com"
+// }
+
+// let school = {
+//     schoolName: "SMIT",
+//     location: "TariqRoad"
+// }
+
+// console.log({...student, ...school})
+
+
+// sello copy; // update hota hai;
+
+
+// let obj = {name: "Umair"}
+
+// let obj1 = obj
+
+// let obj2 = obj1
+
+// obj2.name = "Aslam"
+
+// console.log(obj, obj1,obj2)
+
+
+// Deep copy; // aik update karen to dusri update nahi hote;
+
+
+// let obj = {
+//     name: "Umair",
+//     institute: {
+//          name: "SMIT"
+//     }
+
+// };
+
+// let obj1 = obj
+
+// let obj2 = JSON.parse(JSON.stringify(obj))
+
+// obj2.institute.name = "Saylani"
+
+// console.log(obj, obj1,obj2)
+
+//Enanched object litrals;
+
+
+// let student = "umair";
+// let institute = "SMIT";
+
+// let obj = {
+//     student,
+//     institute
+    
+// }
+
+// console.log(obj)
+
