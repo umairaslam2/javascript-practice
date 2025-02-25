@@ -5740,3 +5740,22 @@ const filterSearch = (value) => {
 //     }
 // }
 
+// let result = student.some(function(v){
+//     return v.age === 20
+// })
+
+// console.log(result)
+
+
+//reduce: //ye kissi array ka some nikaldeta.
+
+
+// let student = [{name: "Ali", age: 20, fee: 1545},{name: "Umair", age: 30, fee: 3131}]
+
+// let result = student.reduce(function(a,v,i){
+//     return a + v.fee;
+// }, 0)
+
+// console.log(result)
+
+
