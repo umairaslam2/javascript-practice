@@ -5821,4 +5821,52 @@ const filterSearch = (value) => {
 // console.log(result); // Output: [9, 4]
 
 
+//Arrow Function: // function ka keyword remove karke => use karte,
+
+
+// let abc = (a,b) => {
+//     return a * b;
+// }
+
+// console.log(abc(2, 2));
+
+            // OR://
+
+
+// let abc = (a,b) => a * b;
+
+
+// console.log(abc(2, 2));
+
+
+// let obj = {
+//    name: "Umair",
+//    getName: function(){
+//     console.log(this)
+//    }
+// }
+
+// obj.getName()
+
+
+// let obj = {
+//     name: "Umair",
+//     getName: () => {
+//      console.log(this)
+//     }
+//  }
+ 
+//  obj.getName()
+
+
+// function abc() {
+//     console.log(arguments[1])
+// }
+
+// abc(2,3)
+
+
+// expontial operator;
+
+//console.log (Math.pow(2,4))
 
