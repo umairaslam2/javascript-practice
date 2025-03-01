@@ -5884,3 +5884,30 @@ const filterSearch = (value) => {
 // }
 // console.log("Miss ==>",miss)
 // console.log("missing ==>",missing)
+
+
+// 3. Find the Longest Word in a Sentence:
+
+
+// function findLongestWord(s) {
+//     // Split the string into an array of words
+//     let wordsArray = s.split(' ');
+
+//     // Initialize a variable to store the longest word
+//     let longestWord = "";
+
+//     // Iterate through the array to find the longest word
+//     wordsArray.forEach(word => {
+//         if (word.length > longestWord.length) {
+//             longestWord = word;
+//         }
+//     });
+
+//     // Return the longest word found
+//     return longestWord;
+// }
+
+// // Example Usage
+// let inputString = "The quick brown fox jumped over the lazy dog";
+// let outputString = findLongestWord(inputString);
+// console.log(outputString); // Output: "jumped"
