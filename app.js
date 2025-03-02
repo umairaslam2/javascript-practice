@@ -5911,3 +5911,14 @@ const filterSearch = (value) => {
 // let inputString = "The quick brown fox jumped over the lazy dog";
 // let outputString = findLongestWord(inputString);
 // console.log(outputString); // Output: "jumped"
+
+
+//polymorphism: // aik hi cheiz se multiple time. // for example Projecter.
+
+//encapsulation: // sare chezon ko aik jiga per rakhna.
+
+
+
+// iterators & generators: // conditon ki limit rakhna yani function ko 5 dfa call kana hai
+
+// generators me javascript ne yield ka method diyahai
