@@ -5993,3 +5993,21 @@ const filterSearch = (value) => {
 
 // console.log(arr)
 // console.log(newArray)
+
+// function findMissingNumber(nums) {
+//     let n = nums.length;
+    
+//     // Calculate the expected sum of all numbers from 0 to n
+//     let expectedSum = (n * (n + 1)) / 2;
+    
+//     // Calculate the actual sum of numbers in the array
+//     let actualSum = nums.reduce((sum, num) => sum + num, 0);
+    
+//     // The missing number is the difference between the expected and actual sums
+//     return expectedSum - actualSum;
+// }
+
+// // Example Usage
+// let inputArray = [3, 0, 1];
+// let missingNumber = findMissingNumber(inputArray);
+// console.log(missingNumber); // Output: 2
