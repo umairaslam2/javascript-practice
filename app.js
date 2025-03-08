@@ -6011,3 +6011,34 @@ const filterSearch = (value) => {
 // let inputArray = [3, 0, 1];
 // let missingNumber = findMissingNumber(inputArray);
 // console.log(missingNumber); // Output: 2
+
+//9. write a javascript function that return first letter of string in capital;
+
+// function capitilizrKaro(str){
+//    var allwords = str.split(" ").map(function(word){
+//      return word.charAt(0).toUpperCase() + word.substring(1)
+//     })
+
+//    return allwords.join(" ");
+// }
+
+// console.log(capitilizrKaro("umair kese"))
+
+// 10. write a javascript function that return each  letter occurrences 
+
+// function occ(str){
+//     var occurrence = {};
+//    str.split("").forEach(function(elem) {
+//     if(occurrence.hasOwnProperty(elem) === false){
+//         occurrence[elem] = 1;
+//     }
+
+//     else{
+//         occurrence[elem]++;
+//     }
+//    });
+
+//    return occurrence;
+// }
+
+// console.log(occ("apple"))
