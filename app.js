@@ -6042,3 +6042,39 @@ const filterSearch = (value) => {
 // }
 
 // console.log(occ("apple"))
+
+
+
+//FOR IN LOAP:
+
+
+// let person ={
+//     brand: 'king',
+//     name: 'Babar'  
+// }
+
+// for (let val in person){
+//     console.log(person[val])
+// }
+
+
+//APIS:
+
+// fetch('https')
+// .then(response =>
+//     response.json())
+//     .then(data =>
+//         console.log(data));
+
+
+
+//PROMISE:
+
+// let promise = new 
+// promise((resole,reject) =>{
+//     resolve('success')
+// }
+// )
+// promise.then(result=>{
+//     console.log(result)
+// })
