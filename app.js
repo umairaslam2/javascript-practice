@@ -6203,3 +6203,27 @@ const filterSearch = (value) => {
 // obj2.institute.name = "Saylani"
 
 // console.log(obj, obj1,obj2)
+
+
+//VARIABLE HOISTING:
+
+// x=10;
+
+// console.log(x);
+
+// var x;
+
+
+// OBJECT:
+
+// let person = {
+//     name : 'umair',
+//     age : 30,
+//     grade : ['A' , 'B' , 'C'],
+//     greet : function(){
+//         console.log(this.name);
+//     }
+
+// };
+
+// console.log(person.name)
