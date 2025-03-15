@@ -6227,3 +6227,19 @@ const filterSearch = (value) => {
 // };
 
 // console.log(person.name)
+
+// var race = ["earth","race"];
+// var race = ["race", "earth"];
+// for(i = race.length -1 ; i > -1 ; i--) {
+//     race = race.reverse()
+//     console.log("yes it is anagram"+ " " + race[i])
+//     if(race[i]  == "care"){
+//     }
+// }
+
+// for (i = 1; i <= 5; i++) {
+//   for (j = i; j >= 1; j--) {
+//     document.write(j);
+//   }
+//   document.write("</br>");
+// }
