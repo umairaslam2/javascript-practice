@@ -6270,3 +6270,39 @@ const filterSearch = (value) => {
 // let nums1 = [4, 9, 5];
 // let nums2 = [9, 4, 9, 8, 4];
 // let result = intersection(nums1, nums2);
+
+
+// let cb = ()=>{
+
+// }
+
+// let result = foo(cb)
+
+// console.log(result)
+
+
+// Ternary operators: // 
+
+// let age = 20;
+
+// let type = age >= 20 ? "Eligible" : "Not Eligible"
+
+// console.log(type)
+
+
+// Moduls: // import & Export;
+
+// Multi export:
+
+// let getDate = ()=>{
+//     return new Date().toDateString();
+// };
+
+// let getTime = ()=>{
+//     return new Date().getTime();
+// };
+
+// const appName = "Quiz"
+
+
+// export { getDate, getTime, appName };
