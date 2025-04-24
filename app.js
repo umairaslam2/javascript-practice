@@ -6831,3 +6831,21 @@ The new object is returned: After the constructor function has been called, if i
 // console.log(iphone.createId());
 
 
+// const user = {
+//     names:'Muhammad Abdullah',
+//     email:'mabdullah2037@gmail.com',
+//     age:20,
+//     greetuser: function(){
+//         return `hello ${this.names}`
+//     }
+
+// }
+
+
+// const user2 = {
+//     names:'Muhammad hasnain',
+//     email:'hasnain@gmail.com',
+//     age:17,
+//     greetuser: function(){
+//         return `hello ${this.names}`
+//     }
