@@ -6849,3 +6849,29 @@ The new object is returned: After the constructor function has been called, if i
 //     greetuser: function(){
 //         return `hello ${this.names}`
 //     }
+
+
+// console.log(user.names);
+// console.log(user.greetuser());
+
+
+
+// function User (name , email , age){
+//     this.names = name;
+//     this.emails = email;
+//     this.ages = age;
+// }
+
+
+// const userOne = new User('Abdullah' , 'abdullah@gmail.com' , 20);
+// console.log(userOne);
+
+
+
+
+// 4 Pillars
+
+// Abstraction
+// Encapsulation
+// Inheritance
+// Polymorphism
