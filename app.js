@@ -6909,3 +6909,24 @@ The new object is returned: After the constructor function has been called, if i
 // .catch
 // const num = 1;
 
+// const promise1 = new Promise((resolve, reject) => {
+//   setTimeout(() => {
+//     if (num > 5) {
+//       console.log("data received");
+//       resolve();
+//     } else {
+//       console.log("nahi ayaa.");
+//       reject();
+//     }
+//   }, 1000);
+// });
+
+// promise1
+//   .then(() => {
+//     console.log("resolve chal rha ha");
+//   })
+//   .catch(() => {
+//     console.log("reject chal rha ha");
+//   });
+
+// console.log(promise1);
