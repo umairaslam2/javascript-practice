@@ -6930,3 +6930,34 @@ The new object is returned: After the constructor function has been called, if i
 //   });
 
 // console.log(promise1);
+
+// const promise2 = new Promise(function (resolve, reject) {
+//   setTimeout(() => {
+//     if (false) {
+//       resolve("resolve chal rha ha");
+//     } else {
+//       reject("error occured");
+//     }
+//   }, 1000);
+// });
+
+// promise2
+//   .then((res) => {
+//     console.log(res);
+//   })
+//   .catch((err) => {
+//     console.log(err);
+//   });
+
+// function shaadiScnz(bankBalance, username) {
+//   return new Promise((resolve, reject) => {
+//     setTimeout(() => {
+//       if (bankBalance > 1000000) {
+//         resolve(`shaadi mubarak hoo. 5000 do or niklo. ${username}`);
+//       } else {
+//         reject(`tumhara kuch nahi hoskta. Tum veela rho. ${username}`);
+//       }
+//     }, 2000);
+//   });
+// }
+
