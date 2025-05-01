@@ -6961,3 +6961,31 @@ The new object is returned: After the constructor function has been called, if i
 //   });
 // }
 
+// shaadiScnz(2000000, "abdullah")
+//   .then((res) => {
+//     console.log(res);
+//     return res + " returned from first .then";
+//   })
+//   .then((res) => {
+//     console.log(res);
+//   })
+//   .catch((err) => {
+//     console.log(err);
+//   });
+
+// shaadiScnz(2500000, "wajid usto")
+//   .then((res) => {
+//     console.log(res);
+//   })
+//   .catch((err) => {
+//     console.log(err);
+//   });
+
+// async function hello() {
+//   const shaadiKrniHa = await shaadiScnz(2000000);
+//   console.log(shaadiKrniHa);
+// }
+
+// hello();
+
+// console.log("hello world!");
